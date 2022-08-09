@@ -1,0 +1,345 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <title>Landing page</title>
+</head>
+<body>
+    <main class="container">
+        <nav class="nav" id="navbar">
+            <div class="nav-item logo-toggler">
+                <a href="#" class="logo">LOGO<span class="dot">.</span></a>
+                <a href="#" class="nav-toggler" onclick="wrap()"><span class="material-icons">menu</span></a>
+            </div>
+            <div class="nav-item nav-column">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#locations-section" class="nav-link">Locations</a>
+                <a href="#services-section" class="nav-link">Trips</a>
+                <a href="#feedback-section" class="nav-link">Feedback</a>
+            </div>
+            <div class="nav-item space-around">
+                <a href="#" class="nav-link">Log In</a>
+                <a href="#" class="btn">Sign Up</a>
+            </div>
+        </nav>
+        <section class="hero" id="hero-section">
+            <div class="hero-title">
+                    <div>
+                    <h1 class="hero-heading">Go,</h1>
+                    <h1 class="hero-heading">Find,</h1>
+                    <h1 class="hero-heading">Explore<span>.</span></h1>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Find your Escape" autofocus value="Find your Escape">
+                        <button class="search-btn">
+                        Go
+                        </button>
+                    </div>
+            </div>
+            <div class="hero-images">
+                <div class="hero-img hi-1 active"><span class="d-name">india</span><span class="bg-block">bg-block</span><span class="active-state">Taj Mahal</span></div>
+                <div class="hero-img hi-2"><span class="d-name">Bali</span><span class="bg-block"></span><span class="active-state">Gate of Heaven</span></div>
+                <div class="hero-img hi-3"><span class="d-name">France</span><span class="bg-block">bg-block</span><span class="active-state">Eiffel Tower</span></div>
+            </div>
+        </section>
+    </main>
+        <main class="container-2">
+        <section class="locations" id="locations-section">
+            <h1 class="loc-heading">Unlimited access to 100+ locations<span>.</span></h1>
+            <div class="loc-filter">
+                <a class="loc-link">All</a>
+                <a class="loc-link">Asia</a>
+                <a class="loc-link">Europe</a>
+                <a class="loc-link">North America</a>
+                <a class="loc-link">South America</a>
+                <a class="loc-link">Australia</a>
+            </div>
+            <div class="loc-container">
+                <div class="loc" id="one">
+                    <div class="loc-text">
+                        <h3 class="loc-title">India</h3>
+                        <p class="loc-detail">15 days</p>
+                    </div>
+                </div>
+                <div class="loc" id="two">
+                    <div class="loc-text">
+                        <h3 class="loc-title">America</h3>
+                        <p class="loc-detail">7 days</p>
+                    </div>
+                </div>
+                <div class="loc" id="three">
+                    <div class="loc-text">
+                        <h3 class="loc-title">Europe</h3>
+                        <p class="loc-detail">7 days</p>
+                    </div>
+                </div>
+                <div class="loc" id="four">
+                    <div class="loc-text">
+                        <h3 class="loc-title">Japan</h3>
+                        <p class="loc-detail">15 days</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services-section">
+            <div class="services-info">
+                <h1 class="services-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, mollitia volu'
+                    <span>.</span></h1>
+                <p class="services-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laborum culpa iure dignissimos praesentium repellendus inventore atque.</p>
+            </div>
+            <div class="sevices-points">
+                <div class="services-highlights">
+                    <div class="highlight">
+                        <div class="highlight-svg">
+                            <span class="material-icons">
+                                task_alt
+                            </span>
+                        </div>
+                        <div class="highlight-detail">
+                            <h3 class="highlight-heading">Affordable Journeys</h3>
+                            <p class="highlight-text">We strive to make the world accessible for each and every one!</p>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-svg">
+                            <span class="material-icons-outlined">
+                                signpost
+                            </span>
+                        </div>
+                        <div class="highlight-detail">
+                            <h3 class="highlight-heading">Guided Experiences</h3>
+                            <p class="highlight-text">Hassle free journeys with the expertise of our in-house Tour Managers.</p>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-svg">
+                            <span class="material-icons third">
+                                all_inclusive
+                            </span>
+                        </div>
+                        <div class="highlight-detail">
+                            <h3 class="highlight-heading">
+                                All Inclusive
+                            </h3>
+                            <p class="highlight-text">Comfortable stay & transport, delicious meals and abundant sightseeing on every tour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-video">
+                    <video class="video" autoplay muted loop>
+                        <source src="src\img\vid.mp4" type="video/mp4"></source>
+                    </video>
+                    <span class="material-icons vid-control" >pause</span>
+                </div>
+            </div>
+        </section>
+        <section class="feedback" id="feedback-section">
+            <h1 class="feedback-heading">What Our Customer's say<span>.</span></h1>
+            <div class="card-slider">
+                <div class="card-container">
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="feedback-text">
+                            information about reactions to a product, a person's performance of a task, etc. which is used as a
+                            basis for improvement.
+                            "throughout this process we have obtained valuable feedback"
+                        </p>
+                        <div class="user-details">
+                            <img class="user-img" src="https://www.nicesnippets.com/demo/following1.jpg" alt="user">
+                            <div class="user-text">
+                                <h3 class="user-name">
+                                    User - 1
+                                </h3>
+                                <h4 class="user-pos">
+                                    Position
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="nav-btn" id="nav-prev">
+                        <span class="material-icons-outlined">
+                            arrow_back
+                        </span>
+                    </button>
+                    <button class="nav-btn" id="nav-next">
+                        <span class="material-icons-outlined">
+                            arrow_forward
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer-links">
+                <h1 class="footer-heading">
+                    LOGO<span>.</span>
+                </h1>
+                <div class="f-links">
+                    <div class="f-links-container">
+                        <a class="nav-link">Find passion</a>
+                        <a class="nav-link">Prep guide</a>
+                    </div>
+                    <div class="f-links-container">
+                        <a class="nav-link">Categories</a>
+                        <a class="nav-link">Customer care</a>
+                    </div>
+                </div>
+                <div class="footer-engage">
+                    <h2 class="engege-heading">Join our newsletter.</h2>
+                    <div class="search">
+                        <input type="text" placeholder="Find your Escape" autofocus value="Find your Escape">
+                        <button class="search-btn">
+                        Go
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="footer-end">
+                <h3 class="end-headline">Developed By Akash Markile</h3>
+                <div class="footer-contact">
+                    <a href="https://in.linkedin.com/in/akash-markile-a9bba4236" target="_blank" class="contact-link"><span class="fa-brands fa-linkedin-in"></span></a>
+                    <a href="https://twitter.com/AkashMarkile" target="_blank" class="contact-link"><span class="fa-brands fa-twitter"></span></a>
+                    <a href="https://www.instagram.com/akashmarkile/" target="_blank" class="contact-link"><span class="fa-brands fa-instagram"></span></a>
+                    <a href="https://codepen.io/Akash1947/" target="_blank" class="contact-link"><span class="fa-brands fa-codepen"></span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
